@@ -527,29 +527,10 @@
 
 
 
-  <script src="/js/jquery.min.js"></script>
-<script src="/js/bootstrap.min.js"></script>
-<script src="/js/fontfaceobserver.js"></script>
-<script src="/js/lazysizes.min.js"></script>
-
-<script>
-    var openSansFont    = new FontFaceObserver('Open Sans');
-    var ubuntuFont      = new FontFaceObserver('Ubuntu');
-    var fontAwesomeFont = new FontFaceObserver('FontAwesome');
-
-    openSansFont.load().then( function(){
-        $('body').addClass('opensans_font');
-    });
-
-    ubuntuFont.load().then( function(){
-        $(':header').addClass('ubuntu_font');
-        $('.navbar-custom').addClass('ubuntu_font');
-        $('.intro-text .name').addClass('ubuntu_font');
-    });
-
-    fontAwesomeFont.load().then( function(){
-        $('body').addClass('awesome_font');
-    });
-</script>
+  <script src="/js/jquery.min.js" defer></script>
+<script src="/js/bootstrap.min.js" defer></script>
+<script src="/js/fontfaceobserver.js" defer></script>
+<script src="/js/lazysizes.min.js" defer></script>
+<script src="/js/mesopa_scripts.min.js" defer></script>
 </body>
 </html>
